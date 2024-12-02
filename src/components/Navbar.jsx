@@ -26,6 +26,9 @@ const Navbar = () => {
         <NavLink to="/" className="text-lg font-bold">
           MyApp
         </NavLink>
+        <NavLink to="/products" className="text-lg font-bold">
+          Products
+        </NavLink>
         <div className="space-x-4">
           {!user ? (
             <>

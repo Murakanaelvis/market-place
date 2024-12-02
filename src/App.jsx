@@ -4,6 +4,7 @@ import Login from './components/Login';
 import { BrowserRouter as Router} from 'react-router-dom';
 import {Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Products from './components/Products';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                <Route path="/signup" element={<Signup/>}/>
                <Route path="/login" element={<Login/>}/>
                <Route path="/home" element={<Home/>}/>
+               <Route path="/products" element={<Products/>}/>
             </Routes>                    
         </section>
       </div>
